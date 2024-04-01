@@ -1,0 +1,85 @@
+div.page-top
+{
+    background-color: black;
+}
+
+div.p1
+{
+    color: white;
+    padding: 10px;
+}
+
+div.p1 h1
+{
+    border: 1px solid white;
+    text-align: center;
+    padding: 30px;
+    margin: 40px 150px 40px 150px;
+}
+
+div.p2
+{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div.p2 a
+{
+    padding: 20px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+div.p2 a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+div.motto
+{
+    text-align: center;
+    padding: 20em 1em 20em 1em;
+}
+
+div.motto h1
+{
+    border: 1px solid black;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div.stats
+{
+    background-color: black;
+    text-align: center;
+}
+
+div#row-1
+{
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+div#row-2
+{
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+div.item
+{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 40px 5px 40px;
+    margin: 0px 100px 0px 100px;
+    border: 1px solid white;
+    background-color: white;
+}
