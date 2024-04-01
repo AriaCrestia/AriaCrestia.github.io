@@ -1,3 +1,11 @@
+html
+{
+    background-image: linear-gradient(purple, darkblue);
+    background-repeat: no-repeat;
+    background-size: 1000em;
+    background-color: darkblue;
+}
+
 div.page-top
 {
     background-color: black;
@@ -5,7 +13,7 @@ div.page-top
 
 div.p1
 {
-    color: white;
+    color: cyan;
     padding: 10px;
 }
 
@@ -82,4 +90,85 @@ div.item
     margin: 0px 100px 0px 100px;
     border: 1px solid white;
     background-color: white;
+}
+
+div#section-1
+{
+    padding-left: 3em;
+    padding-top: 3em;
+    color: white;
+}
+
+div.entry
+{
+    padding-left: 3em;
+    padding-top: 3em;
+    display: inline-block;
+}
+
+div.entry h1
+{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+div.entry h2
+{
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+
+div.entry a
+{
+    text-decoration: none;
+    color: white;
+}
+
+div.c-entry
+{
+    margin: 3em;
+    display: inline-block;
+    color: white;
+}
+
+div.c-entry h1
+{
+    display: inline;
+    color: white;
+}
+
+div.c-entry ul
+{
+    display: inline-block;
+    list-style-type: "> ";
+    color: white;
+}
+
+div.c-entry li
+{
+    color: white;
+}
+
+div.c-entry a
+{
+    text-decoration: none;
+    color: darkblue;
+    font-size: large;
+    color: white;
+}
+
+div.footer p
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
